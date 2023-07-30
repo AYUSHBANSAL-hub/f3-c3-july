@@ -63,10 +63,11 @@ window.onload= function(){
         let logoutbtn=document.getElementById('logout-btn');
         logoutbtn.addEventListener('click',function(){
             localStorage.clear();
-            
+            document.getElementById('message').innerText="logging out";
             setTimeout(function(){
                 window.location.href="index.html";
-            },1000);
+    
+            },2000);
         })
     }
 }

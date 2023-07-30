@@ -21,6 +21,7 @@ H1 {
   width: 100vw;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 70vh;
 }
 #card {

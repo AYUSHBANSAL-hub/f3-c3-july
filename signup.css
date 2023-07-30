@@ -7,6 +7,7 @@ body {
   background-position: bottom;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -86,4 +87,23 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+#login-text {
+  color: #333;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#login-text-2 {
+  color: #625bf7;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
