@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap");
+body {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="487" viewBox="0 0 1280 487" fill="none"><path d="M-24 0L1280 351.443V487H-24V0Z" fill="%235BF7DB"/></svg>');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
+H1 {
+  color: #625bf7;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 100px;
+}
+.main-body {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+#card {
+  width: 444px;
+  height: 537px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#profile-heading {
+  color: #333;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#profile-info > p {
+  color: #333;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#logout-btn {
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  width: 352px;
+  height: 55.804px;
+  padding: 9px 14px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+  color: white;
+  font-size: 30px;
+  margin-bottom: 80px;
+  border: none;
+}

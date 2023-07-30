@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap");
+body {
+  /* background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="487" viewBox="0 0 1280 487" fill="none"><path d="M-24 0L1280 351.443V487H-24V0Z" fill="%235BF7DB"/></svg>'); */
+  background-image: url(./bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-div {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: 444px;
+  height: 537px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#welcome {
+  color: #757575;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+label {
+  text-align: left;
+  width: 100%;
+  padding-left: 90px;
+  color: #333;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+input {
+  border-radius: 6px;
+  border: 1px solid #dedede;
+  width: 80%;
+  height: 36px;
+  padding: 0px 12px;
+  box-sizing: border-box;
+  gap: 12px;
+}
+h3 {
+  color: #333;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+button {
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  width: 352px;
+  height: 55.804px;
+  padding: 9px 14px;
+  gap: 10px;
+  background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+  color: white;
+  font-size: 16px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 6px;
+  border: none;
+}
+
+#signupForm {
+  height: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
